@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon Premier Formulaire</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<h1>Votre Avis Nous Intéresse</h1>
+	<div style="display: flex;">
+		<fieldset>
+			<legend>Informations Personnelles</legend>
+			<ol>
+				<li><label>Nom</label> <input type="Text" name="nom"></li>
+				<li><label>Date de naissance</label> <input type="Date" name="date"></li>
+				<li><label>Site</label> <input type="Site" name="Site" placeholder="http://monsite.com"></li>
+				<li><label>Emploi</label> <input type="Text" name="Emploi"></li>
+				<li><label>Approx. Salaire annuel</label> <input type="Number" name="Salaire" placeholder="$"></li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Informations de Contact</legend>
+			<ol>
+				<li><label>Adresse ligne 1</label> <input type="Text" name="Adresse"></li>
+				<li><label>Adresse ligne 2</label> <input type="Text" name="Adresse"></li>
+				<li><label>Pays</label> <input type="Text" name="Pays"></li>
+				<li><label>Tél</label> <input type="Tél" name="Tél" placeholder="eg: +213 67"></li>
+				<li><label>Courriel</label> <input type="Email" name="Email"></li>
+			</ol>
+		</fieldset>
+	</div>
+	<h1>Préférences</h1>
+	<div>
+		<label>Choisir une couleur</label>
+		<input type="Color" name="color">
+	</div>
+	<div>
+		<label>Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5</label>
+		<input type="Range" min="1" max="10" name="Range">
+	</div>
+	<button>Envoyer</button>
+
+</body>
+</html>
